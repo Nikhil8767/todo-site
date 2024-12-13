@@ -29,7 +29,8 @@
 
             try {
                 // Sending a POST request to the backend to create a new user
-                const response = await fetch('http://localhost:4000/api/auth/signup', {
+                // const response = await fetch('http://localhost:4000/api/auth/signup', {
+                  const response = await fetch('https://todo-site-omega.vercel.app/api/auth/signup', {
                   method: 'POST',
                   headers: {
                     'Content-Type': 'application/json', // Ensures the request body is in JSON format
