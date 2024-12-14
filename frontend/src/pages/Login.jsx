@@ -22,7 +22,8 @@ const Login = () => {
     };
 
     try {
-      const response = await fetch('http://localhost:4000/api/auth/', {
+      // const response = await fetch('http://localhost:4000/api/auth/', {
+        const response = await fetch('https://todo-site-omega.vercel.app/api/auth/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
