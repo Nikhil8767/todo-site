@@ -9,9 +9,13 @@ import cors from "cors"
 const app=express();
 
 
-const allowedOrigins = [
-    "http://localhost:5173",  // Local development URL
-    process.env.FRONTEND_URL,  // Production URL from environment variables
+// const allowedOrigins = [
+//     "http://localhost:5173",  // Local development URL
+//     process.env.FRONTEND_URL,  // Production URL from environment variables
+//   ];
+  const allowedOrigins = [
+    "http://localhost:5173",  // Local development
+    "https://todo-site-fscw.vercel.app",  // Deployed frontend URL
   ];
 
 
